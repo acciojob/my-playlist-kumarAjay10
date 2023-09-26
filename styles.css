@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+
+body{
+	background-color:rgb(204, 204, 204);
+}
+.container>h1{
+	text-align:center;
+}
+.songs>ul{
+	list-style-type: none;
+	background-color:white;
+	border-radius:10px;
+	width:600px;
+	height:200px;
+	padding-top:20px;
+	line-height:30px;
+}
+.songs{
+	padding:15px;
+}
+.playing{
+	text-align:center;
+}
+.player_one{
+	background-color:rgb(255, 255, 255);
+	padding:20px;
+	border-radius:15px;
+}
+.player_one>h2{
+	text-align:center;
+}
+.player_one{
+	width:500px;
+	padding:30px;
+}
+.player_two{
+	width:400px;
+	background-color:rgb(255, 255, 255);
+}
+.songs>ul>li a{
+	text-decoration:none;
+}
